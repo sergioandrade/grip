@@ -1,0 +1,25 @@
+{
+	"name": "grip",
+	"version": "1.0.0",
+	"description": "SASS grid for leave bootstraps grids",
+	"main": "index.html",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sergioandrade/grip.git"
+	},
+	"keywords": [
+		"grid",
+		"sass",
+		"responsive"
+	],
+	"author": "Sergio Andrade",
+	"license": "MIT",
+	"devDependencies": {
+		"bower": "~1.7.9",
+		"gulp-concat": "~2.6.0",
+		"gulp": "~3.9.0",
+		"gulp-autoprefixer": "~1.0.1",
+		"gulp-sass": "~2.0.4",
+		"browser-sync": "~2.14.0"
+	}
+}

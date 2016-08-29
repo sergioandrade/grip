@@ -1,0 +1,244 @@
+/* ==========================================================================
+   Grid system settings
+   ========================================================================== */
+/* ==========================================================================
+   Grip the sass grid system
+   ========================================================================== */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto !important;
+}
+
+.row {
+  float: left;
+  width: 100%;
+}
+
+.content {
+  display: block;
+  margin: 0 auto;
+  width: 96%;
+  max-width: 994px;
+}
+
+.columns {
+  float: left;
+}
+
+.columns {
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.grid-row {
+  overflow-x: hidden;
+}
+
+.grid {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.small-1 {
+  width: 8.33333%;
+}
+
+.small-2 {
+  width: 16.66667%;
+}
+
+.small-3 {
+  width: 25%;
+}
+
+.small-4 {
+  width: 33.33333%;
+}
+
+.small-5 {
+  width: 41.66667%;
+}
+
+.small-6 {
+  width: 50%;
+}
+
+.small-7 {
+  width: 58.33333%;
+}
+
+.small-8 {
+  width: 66.66667%;
+}
+
+.small-9 {
+  width: 75%;
+}
+
+.small-10 {
+  width: 83.33333%;
+}
+
+.small-11 {
+  width: 91.66667%;
+}
+
+.small-12 {
+  width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+  .small-1 {
+    width: 8.33333%;
+  }
+  .small-2 {
+    width: 16.66667%;
+  }
+  .small-3 {
+    width: 25%;
+  }
+  .small-4 {
+    width: 33.33333%;
+  }
+  .small-5 {
+    width: 41.66667%;
+  }
+  .small-6 {
+    width: 50%;
+  }
+  .small-7 {
+    width: 58.33333%;
+  }
+  .small-8 {
+    width: 66.66667%;
+  }
+  .small-9 {
+    width: 75%;
+  }
+  .small-10 {
+    width: 83.33333%;
+  }
+  .small-11 {
+    width: 91.66667%;
+  }
+  .small-12 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .medium-1 {
+    width: 8.33333%;
+  }
+  .medium-2 {
+    width: 16.66667%;
+  }
+  .medium-3 {
+    width: 25%;
+  }
+  .medium-4 {
+    width: 33.33333%;
+  }
+  .medium-5 {
+    width: 41.66667%;
+  }
+  .medium-6 {
+    width: 50%;
+  }
+  .medium-7 {
+    width: 58.33333%;
+  }
+  .medium-8 {
+    width: 66.66667%;
+  }
+  .medium-9 {
+    width: 75%;
+  }
+  .medium-10 {
+    width: 83.33333%;
+  }
+  .medium-11 {
+    width: 91.66667%;
+  }
+  .medium-12 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .big-1 {
+    width: 8.33333%;
+  }
+  .big-2 {
+    width: 16.66667%;
+  }
+  .big-3 {
+    width: 25%;
+  }
+  .big-4 {
+    width: 33.33333%;
+  }
+  .big-5 {
+    width: 41.66667%;
+  }
+  .big-6 {
+    width: 50%;
+  }
+  .big-7 {
+    width: 58.33333%;
+  }
+  .big-8 {
+    width: 66.66667%;
+  }
+  .big-9 {
+    width: 75%;
+  }
+  .big-10 {
+    width: 83.33333%;
+  }
+  .big-11 {
+    width: 91.66667%;
+  }
+  .big-12 {
+    width: 100%;
+  }
+}
+
+.pull-right {
+  text-align: right;
+}
+
+.pull-left {
+  text-align-last: auto;
+}
+
+.center {
+  text-align: center;
+  font-size: 0;
+}
+
+.lego {
+  display: inline-block;
+  float: none;
+  font-size: 16px;
+  text-align: left;
+}
